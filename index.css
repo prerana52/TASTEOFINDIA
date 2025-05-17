@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  
+  <title>1st page</title>
+  <style>
+body{
+<ul>
+<li><a href="2nd page.html">FEEDBACK</a></li>
+<li><a href="help.html">HELP</a></li>
+</u1>
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;}
+
+}
+
+
+    body{
+      margin: 0;
+      padding: 0;
+	}
+body {
+    background-image:url('login back.jpg');
+    width:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1{
+color:black;
+text-align:center;
+}
+ header {
+            background-color;
+            color: white;        
+            text-align: center;
+            margin: 0;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+a{text-decoration:none;}
+a{text-align:top;}
+a:link {color :green}
+a:visited {color :red}
+a:hover {color :Grey ; text-decoration:underline;}
+a:active {color:blue}
+a{letter-spacing:2;}
+a{font-size:16px;}
+a{font-weight:700;}
+a{position:top;}
+.btn {
+    display: justify;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #f0a500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c87f00;
+}
+
+
+ </style>
+</head>
+<body>
+         <pre>    <h1>    Login Here    </h1>
+<br>
+<form method="post">
+        <input type="email" name="email" placeholder="Email id" required>
+        <br>
+        <input type="password" name="password" placeholder="Password" required>
+<br>
+
+       <a href="2nd page.html" class="btn">click here</a>
+    </form>
+
+
+</body>
+</html>
